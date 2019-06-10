@@ -1,0 +1,36 @@
+{
+  "name": "@bartificer/promised-window",
+  "version": "1.0.0",
+  "description": "Promise-wrappers for window.confirm etc.",
+  "main": "dist/index.js",
+  "module": "dist/index.es.js",
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "build": "./node_modules/rollup/bin/rollup -c",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bbusschots/promisedWindow.js.git"
+  },
+  "keywords": [
+    "JavaScript",
+    "Promise"
+  ],
+  "author": "Bart Busschots",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/bbusschots/promisedWindow.js/issues"
+  },
+  "homepage": "https://github.com/bbusschots/promisedWindow.js#readme",
+  "dependencies": {
+    "rollup": "^1.14.6",
+    "rollup-plugin-commonjs": "^10.0.0",
+    "rollup-plugin-node-resolve": "^5.0.1"
+  }
+}
