@@ -62,6 +62,4 @@ typings/
 
 *.komodoproject
 
-dist/
-
 temp\.html
